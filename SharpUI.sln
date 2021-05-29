@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpUI", "SharpUI\SharpUI.csproj", "{76B626BF-E822-4FAF-8BA4-72563A3B7100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{9C6B2DBA-3D11-4F46-BFEE-93CE4B7141AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76B626BF-E822-4FAF-8BA4-72563A3B7100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B626BF-E822-4FAF-8BA4-72563A3B7100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B626BF-E822-4FAF-8BA4-72563A3B7100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B626BF-E822-4FAF-8BA4-72563A3B7100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6B2DBA-3D11-4F46-BFEE-93CE4B7141AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6B2DBA-3D11-4F46-BFEE-93CE4B7141AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6B2DBA-3D11-4F46-BFEE-93CE4B7141AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6B2DBA-3D11-4F46-BFEE-93CE4B7141AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF6E143F-78BE-44A9-AE71-10643974D7A9}
+	EndGlobalSection
+EndGlobal
