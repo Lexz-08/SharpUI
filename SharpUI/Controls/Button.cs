@@ -51,7 +51,7 @@ namespace SharpUI.Controls
 			gfx.TextContrast = 0;
 
 			gfx.FillRectangle(BackColor.ToBrush(), 0, 0, Width, Height);
-			gfx.DrawString(Text, Font, ForeColor.ToBrush(), new Rectangle(1, 2, Width, Height),
+			gfx.DrawString(Text, Font, ForeColor.ToBrush(), new Rectangle(0, 2, Width, Height),
 				new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Center });
 		}
 	}
