@@ -5,7 +5,6 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
-using Transitions;
 
 namespace SharpUI.Controls
 {
@@ -85,7 +84,7 @@ namespace SharpUI.Controls
 
 			if (Parent != null) parentForm = FindForm();
 
-			Dock = DockStyle.Top | DockStyle.Right;
+			Anchor = AnchorStyles.Top | AnchorStyles.Right;
 		}
 
 		protected override void OnMouseClick(MouseEventArgs e)
